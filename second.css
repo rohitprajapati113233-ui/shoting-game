@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#gameArea {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+  background: #f2f2f2;
+}
+
+#target {
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
